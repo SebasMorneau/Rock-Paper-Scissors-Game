@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Roche Papier Ciseau</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header><h1>Roche Papier Ciseaux</h1></header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">Utilisateur</div>
+      <div id="computer-label" class="badge">Ordinateur</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Cliquez sur l'une des figures pour commencer.</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r"><img src="images/rock.png" alt="roche" /></div>
+      <div class="choice" id="p">
+        <img src="images/paper.png" alt="papier" />
+      </div>
+      <div class="choice" id="s">
+        <img src="images/scissor.png" alt="Ciseaux" />
+      </div>
+    </div>
+
+    <p id="action-message">Faites votre choix.</p>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
